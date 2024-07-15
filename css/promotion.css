@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* 프로모션 */
+.promotion .inner{
+    
+}
+.promotion .section-top{
+    display: none;
+}
+.sw-promotion a{
+    display: block;
+    border-radius: 13px;
+    overflow: hidden;
+
+}
+.sw-promotion a img{
+    width: 100%;
+    height: auto;
+}
+/* pagination */
+.sw-promotion-control{
+    position: relative;
+    text-align: center;
+    display: none;
+
+}
+.swiper-pagination-bullet{
+    border-radius: 0px;
+}
+.swiper-pagination-bullet-active{
+    background-color: rgb(255, 0, 0);
+    width: 15px;
+}
