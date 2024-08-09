@@ -69,3 +69,21 @@ window.onload = function () {
     },
   });
 };
+ // event 스와퍼
+ const swEvent = new Swiper(".sw-events", {
+  slidesPerView: 3,
+  spaceBetween: 27,
+  breakpoints: {
+    1280: {
+      slidesPerView: 4,
+
+    },
+    768: {
+      slidesPerView: 4,
+    },
+    480: {
+      slidesPerView: 4,
+      spaceBetween: 27
+    },
+  },
+});

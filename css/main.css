@@ -4,6 +4,7 @@
 @import url("header.css");
 @import url("promotion.css");
 @import url("shopping.css");
+@import url("event.css");
 * {
   margin: 0;
   padding: 0;
